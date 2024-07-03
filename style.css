@@ -1,0 +1,477 @@
+@font-face {
+  font-family: satoshi;
+  src: url(./4DUCFyigHLkZDMSHultGoxWxF6c.woff2);
+}
+@font-face {
+  font-family: inter;
+  src: url(./Inter-Regular.latin-JLQMKCHE.woff2);
+}
+
+@font-face {
+  font-family: antonio;
+  src: url(./gNMEW3NwSYq_9WD3yHQiFQ.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 2vw;
+}
+
+#nav #left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#nav #left h2 {
+  font-family: antonio;
+}
+
+#nav #bordera {
+  background-color: #333333;
+  padding: 1vw 2vw;
+  border: 1px solid black;
+  display: flex;
+  gap: 30px;
+  border-radius: 20px;
+}
+
+#nav #bordera a {
+  font-family: inter;
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+  background-color: #333333;
+}
+
+#nav #right button {
+  padding: 0.7vw 1.2vw;
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+#page1 {
+  font-family: antonio;
+}
+
+#page1 h1 {
+  font-size: 5.5vw;
+  margin-left: 15.6vw;
+  margin-top: 3vw;
+  font-weight: 100;
+  line-height: 1.2;
+  height: fit-content;
+  overflow: hidden;
+}
+
+#cards {
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card1 {
+  background-color: #1d1d1d;
+  height: 95vh;
+  width: 67.5vw;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+#cards #card1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cards #card1 img {
+  height: 66vh;
+}
+
+#card1:hover {
+  background-color: white;
+}
+
+#page2 {
+  font-family: antonio;
+  font-size: 3vw;
+  padding: 11vw 15.8vw;
+}
+
+#banner {
+  font-family: antonio;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10vw;
+  padding: 5vw 5vw;
+  border-top: 0.1px solid #333333;
+  border-bottom: 0.1px solid #333333;
+  transition: ease-in-out 0.5s;
+}
+
+#banner #left p {
+  font-family: satoshi;
+  font-size: 1vw;
+}
+
+#banner #right button {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 0.5vw;
+  margin-top: 20px;
+  font-family: satoshi;
+}
+
+#need {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.1px solid #333333;
+  border-bottom: 0.1px solid #333333;
+}
+
+#needmid {
+  background-color: #1d1d1d;
+  height: 30vh;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#needmid h2 {
+  background-color: #1d1d1d;
+  font-family: antonio;
+}
+
+#needmid p {
+  background-color: #1d1d1d;
+  font-family: satoshi;
+  font-size: 1vw;
+}
+
+#needmid #right {
+  background-color: #1d1d1d;
+}
+
+#needmid #right button {
+  padding: 1vw;
+  border: 1px solid white;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+}
+
+#clear h1 {
+  font-family: antonio;
+  font-size: 7vw;
+  margin: 5vw 20vw;
+}
+
+#down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vw 20vw;
+  gap: 20px;
+  padding-bottom: 20vh;
+  border-bottom: 0.3px solid #333333;
+}
+
+#down h3 {
+  font-family: antonio;
+}
+
+#down p {
+  font-family: satoshi;
+  font-size: 1vw;
+}
+
+#down2 {
+  padding: 7vw 20vw;
+  padding-bottom: 20vh;
+  border-bottom: 0.3px solid #333333;
+}
+
+#down2 h1 {
+  font-family: antonio;
+  font-size: 5vw;
+  letter-spacing: 0.3vw;
+  font-weight: 100;
+}
+
+#down2 p {
+  font-size: 1vw;
+  font-family: satoshi;
+  margin-top: 2vw;
+}
+
+#last {
+  font-family: antonio;
+  padding-left: 20vw;
+  padding-bottom: 10vh;
+}
+
+#last h1 {
+  font-size: 4vw;
+  font-weight: 100;
+  margin-top: 10vh;
+}
+#last h4 {
+  color: #5eff8b;
+  font-family: inter;
+  margin-top: 10px;
+}
+
+#last button {
+  margin-top: 2vw;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  padding: 1vw 2vw;
+}
+
+@media (max-width: 600px) {
+  #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+  }
+
+  #nav #left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  #nav #left h2 {
+    font-family: antonio;
+  }
+
+  #nav #bordera {
+    background-color: #333333;
+    padding: 1vw 2vw;
+    border: 1px solid black;
+    display: flex;
+    gap: 30px;
+    border-radius: 20px;
+    display: none;
+  }
+  #nav #right button {
+    padding: 2vw 1.2vw;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+  }
+
+  #page1 {
+    font-family: antonio;
+    background-color: red;
+  }
+
+  #page1 h1 {
+    font-size: 5.5vw;
+    margin-left: 15.6vw;
+    margin-top: 5vw;
+    font-weight: 100;
+    line-height: 1.2;
+    background-color: red;
+  }
+
+  #cards {
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25vh;
+  }
+
+  #card1 {
+    background-color: #1d1d1d;
+    height: 30vh;
+    width: 67.5vw;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+  }
+
+  #cards #card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #cards #card1 img {
+    height: 20vw;
+  }
+
+  #card1:hover {
+    background-color: white;
+  }
+
+  #page2 {
+    font-family: antonio;
+    font-size: 3vw;
+    padding: 11vw 15.8vw;
+  }
+
+  #banner {
+    font-family: antonio;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    padding: 5vw 5vw;
+    border-top: 0.1px solid #333333;
+    border-bottom: 0.1px solid #333333;
+    transition: ease-in-out 0.5s;
+  }
+
+  #banner #left p {
+    font-family: satoshi;
+    font-size: 1vw;
+  }
+
+  #banner #right button {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 0.5vw;
+    margin-top: 20px;
+    font-family: satoshi;
+  }
+
+  #need {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.1px solid #333333;
+    border-bottom: 0.1px solid #333333;
+  }
+
+  #needmid {
+    background-color: #1d1d1d;
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #needmid h2 {
+    background-color: #1d1d1d;
+    font-family: antonio;
+  }
+
+  #needmid p {
+    background-color: #1d1d1d;
+    font-family: satoshi;
+    font-size: 1vw;
+  }
+
+  #needmid #right {
+    background-color: #1d1d1d;
+  }
+
+  #needmid #right button {
+    padding: 1vw;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+  }
+
+  #clear h1 {
+    font-family: antonio;
+    font-size: 7vw;
+    margin: 5vw 20vw;
+  }
+
+  #down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 20vw;
+    gap: 20px;
+    padding-bottom: 20vh;
+    border-bottom: 0.3px solid #333333;
+  }
+
+  #down h3 {
+    font-family: antonio;
+  }
+
+  #down p {
+    font-family: satoshi;
+    font-size: 1vw;
+  }
+
+  #down2 {
+    padding: 7vw 20vw;
+    padding-bottom: 20vh;
+    border-bottom: 0.3px solid #333333;
+  }
+
+  #down2 h1 {
+    font-family: antonio;
+    font-size: 5vw;
+    letter-spacing: 0.3vw;
+    font-weight: 100;
+  }
+
+  #down2 p {
+    font-size: 1vw;
+    font-family: satoshi;
+    margin-top: 2vw;
+  }
+
+  #last {
+    font-family: antonio;
+    padding-left: 20vw;
+    padding-bottom: 10vh;
+  }
+
+  #last h1 {
+    font-size: 4vw;
+    font-weight: 100;
+    margin-top: 10vh;
+  }
+  #last h4 {
+    color: #5eff8b;
+    font-family: inter;
+    margin-top: 10px;
+  }
+
+  #last button {
+    margin-top: 2vw;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 1vw 2vw;
+  }
+}
